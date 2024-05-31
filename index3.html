@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head data-bs-theme="light">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>Cover Template · Bootstrap v5.3</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./styles3.css">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style> 
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg bg-here-secondary p-md-4 p-sm-2" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="text-oswald h1 text-decoration-none" href="#">Inkersal</a>
+          <!-- <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <button class="navbar-toggler menuIconToggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamb-line dia part-1"></div>
+            <div class="hamb-line hor"></div>
+            <div class="hamb-line dia part-2">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-4 w-100 d-flex justify-content-end">
+              <li class="nav-item mx-4">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>  
+            </ul> 
+          </div>
+        </div>
+      </nav> 
+    </header>
+
+    <section class="hero d-flex flex-column justify-content-center align-items-center text-dark mt-5 mb-5"> 
+      
+      <div class="floating-content text-center">          
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALwAyAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAADAAECBAUGB//EADgQAAIBAwIEBAQDCAIDAQAAAAECAAMEERIhBSIxQQYTUWEycYGxQqHBFCNSkdHh8PEzYhU0ghb/xAAaAQACAwEBAAAAAAAAAAAAAAAAAQMEBQYC/8QAJhEAAgIBBAICAgMBAAAAAAAAAAECAxEEEiExBUETURRhIjKhcf/aAAwDAQACEQMRAD8AwMxAyGqLP3nZFEKDHz9oNTJfigImDH/rIA/aPn7wEPF/WL7SJYBcscDGTmHQYHMjn+0xOJce8ptNoqsAcM5G2ZjXXE7m4bU1TCfwqdpQu8hVB4XLJo0t9nWXN7b2y/vKig4ziZ54/basaXOe4E5h2Lc+c79MwZMz5+Tsb/isEypj7Opq+ILdfhVicd9pm1ePXLNylVXoABMctn4txFpOph7bSGevul7welXFHQ2PH2NRUuQoUn4xNulc0qq5WordtpwW/wDWFpVqlvUV1bBx6yajyU48T5R5lUn0d7q++0RmNwrin7TyVcCoNvnNUNzTaqtjZHdEruLTJxiI4iIMlERz98xo5Bkd4AIyMcg6ekbB/OAxj+sUfHeKIAykfnJ7SujCPr5vaM8h1I/SS/l/OBUrJArEATIH844IaCBEdMLq9zmMQUuFXLYAxkzj+McTe9q4pOUoqOnTVNfxFei3tvJU4eoMDHp3nJ5OrEx/I6lp/HF/9LFMPbHqOSvN67RlPNHqr8PY4kQv0wN5jFgm1Pup3garc3oe4hVB1YzqEiyB6nbBPXMQwagr8XrmG80J8I9jmPXwiqOrDqYGqwZdSjocYgIKlRGqace0nUp8rHG4AwPeVkHNrX8JzLDVyqsPw42gA9o7W9zTfO+c7GddZ1w609RGojpicfQIbn7r0zNWyujp1b6iNPymhodR8cmn0eJxyjqSR6xww/wQNJg1NfXHrJgjlnQJ5WSrglkSBPN/aS1CQJGqMRJm5fpBqZJmGnHtIA/3gMfVytvFGyIoABBkgYHP8+kmv94wCg/5mSBgR6yYMBBl/STB/vBIftJE6Vb2GYMDkeM3P7RxCqc8qnSspUuZvrFctrq1G9WJkKPM3WcldJynJsuxWEGrgmqo9BsYzBm9JNwGb85JELMoVWbI6SJs9JAQ4TT2YHO4gHYuzHoe8214DfXbKfJZR2JE0bLwbePUXUNs9xIpXwj7Jo6eyXo5Ldv1iAby9PvmeijwSif8oUbdj3le48JaV6qMbYC9ZF+XWTfg2YODUlKenuTiNUbl6Y2xN6+4DVo6mXdQewmLcW7Umx9esnhZGXRWnVKHaBq2lVC7uTNXgw/e6MrsN895kghPi3PQTU8OqXu23wdO0uaWKlakyGXCOrojSv2k5BfzkjOoSwioOTzfTaRiijAUYmKNABjFHaKAFJRp/wBwymBUn8UIpiQBRHzICPGIMsk3MrD2g1MIINcAcJWUpVqI3VWIMip0t1l7jdsbe/qfwudSmZ2e85K2LjOSZdi8o0LdBVZUUczGdn4b4MjVFdhOc8O2JuKiv7z0zhtAW9NdhnG0ytXc1/FGrpKFjezUoWKJTXSoxjaWltUXtj6QlvzKp9vSWAPnM18l3LKwtFK4ZcwFzw9PL6dtszS+GCrcy+2J6xgW5nCccsjpZaS43yTmee8bDeZjTgr1nrnEE1VGVl27bTh/F1si22VAUg77SzpbcTSPGqr3VtnBYmr4dbTxBRnGpTnaZ9RCrdPeaXhynrv9WcaVM6DSZdyx9mBPpnWf0xFFt+UYzqSmIxoiY2fvAYoo0UAE0UYmKAFMGEX9IGGWJATEfMiDHjEESFUwK/DCrGBmeI7XzrRavUofynL0aZeoqdycYnfPRW4pvTqtpRhhj1xMG/4JV4PxK21Nrp1GBR8dd+85vyrhG7CfLRd09cnDdjjJtcPFHh1GkrMAVGW9zOo4VxmydVNdgm3UmYVvY0rjU9zsijJOZKrY2tXhNW8trStWoUWCmo9XQuT6TnHGM3z2bcpShHjo9Gsb6xq0/wB1XpnbbmEtgI/wtnvPKeB8HqXds1/bLWpLScA4cMuSMjedVwitdUq7BnJ1HcH1kNtagx1NzWTr9KIuqqQB6kyjfcU4fbL+9r01BHczN4xVrvQamx0gjHWcdxLhVxd0atxio9K3UFyGAwPrFWlJ4HNOKyb3FONWbKxoHXtsZy3EKicUoeVkJUb16SXCBbVrSrW/Y65pW4BqN5upQD646TWe2truyWpQpqoxsB2+RkkoxrfQQk7F+jzjiNu1vVqU6qYdT+UteGUZa9VsbYxL3HbWtd8WoWtsheq64UDuczVp+Ha/BqTNXdGqMAWA7fWbvjrofNHc+WZGool/LauEKMxizIsf7TrTMGJjZizFEMcn7Ro39IowETFIxRAVFhhArCiJATH+bx5FT95LE9CJp8MKsEkKsYFm2+Jt+wI+hB/SXfGdWhcNw2ko/eUKgBb5zPpkoynrg5h+JUGZlulGumwXUO69N5yfnKnC9W+nwbfjpKdTg/XJucMsluKCpp2x6TVtOEVKNtVtdCtbVPiQnY/SN4dI8hTjqPSbb1OXCzmXNps039GQOHpb237NQTy6WclFJwZUoUtF7pXsd95r3LijSZ2PbuZncJpvcV2qY77zzJtrk9QSRPiaFv5Yle0tNXmU2JVKgw6EnDCaXFKRRdXtIWuHpqevaeYNx6PUsNFc8ES3tqlC0o06dKoecL0b5ym1itlQ0KulQNgJ0dFyu3bEpcVUNT+kcptnmKwclwa3X/8AXUKjAlVpNk46f5vNrxi9NLR0XGWOB8iQf0lDhhf9vuWppvhV1noozmU/FN3512tJTtTGT8/9TW8ZU7tXFelyVNXJV0t/ZimRb9I4jPO+ObIxSIjxAPEYoxjAYxRRRAVEhlgaYhge2O0EBISRjCOTyxiJIIVYOn8MKsYgizcsglXhbIrDWQVYE7zCWEB0/aZ/kdF+XVtzhp5LOl1Hwz3YOo8PV/3SjO467zeFX7Th+D3Xk8ufhOMTeqcRVKTPntOBvoddri/TOlhNTgpI0b1GuGR1wUTfQT1kuGcQqUamKtmKdFttYbO/vOZa+vLxsUuWkDt6maVjacQpNrWuuO6lsxbPsM5WEb3EL41tK0LYVKY3dtWkLKdB9XPoFM9lzA3VrXuKHNUWiQdlDbH3wJj1hd2La6Tq2O3XMTh+xp4WMHULUmbxavpptv22lPhvE2uNQZdLLKnG7sLSqHPQZkarbmkespLJc4BoSwr1K7KqVGLEluw2/ScjdVPNuar5LBmJyYJXby1ViemTvEJ3Xi/G/i5m3lv/AA57War5cRS4Qh+kg5hPwwdSbJQIA80kIMSa/DAZIxo8aAhv8EUYxRDKiGGBgaUJ/uJAEWOfhkUMkTPQgtP4YRYFDy/WFUxiCiTJgwZL+kAHpv5VZW/C2027GpTqr5dTcZmHyMyrVIAY6RmFarU4dXXz/g6q3YicZ5qlLUZXbWTe8fY/i56OmbhlJ1V6TMuOgDES9w/hxZceYw36FpR4dcC4pq9JgQR6y5f2FxcUNdC5ajUXfIPWYabzhmlnHRoVeFrpYtVHToWmJV4YtWqoYYVTnvvDcJsb9qrftd2z4A0jGJfuaPkr8W/qYpya6GpZ4ZlVadK2VtKgHHac7xirrXT2yCxmjxa+Hmrb0BrrN0AmJ4noNbcJbzD+8dhq9t5LpXtsjKX2RX81tL6K+ZMfDOYo8QrWlRRr1JncE5nRpU1qrL0IyJ3+l1Ub1xw0cvODQSCqGTB5YOpLZ4B5hF+GBPxQo+GAyWY0UUBDGKMYoDKlKFBgaULPKAmskx5ZAGOTPQglM8v1hQZXpnl+sKp+0aAMDJZ+0CDAXF/Rt9mbU3osjssjWsyeASb6M/it2RxizGeSnUUke+Z6ALajfWTUa66kYbbbgzy++zcVGrdGzq6z0/wzWW8sqVRTnUoJ3nD+Vsc7PkRveOwouLMOol9wBmK66tux5ag/D85o2XikVaWipVwMZOZ1Faw1U/hypG4I6zGq+D+GXba/LZGJ30naZ0bYS/t2W3CS/qxh4roUqLFXTX0UzJuPEN7xOq1vYq1aqwwMDabtPwJwVdJZKjHG41nE07bh1nY6aNjb06S530jeErK0uFlgozb54M7gXAhY0muLtvNvagy7HovsJk+MrYXFoyMcZ3BncPS0UctttOG8bXApcOqvnSQML7mQ1ylKxMlaioSPL6au9zhtwhxOq4bU12i9ypwd5z9BClPO2W3luzvHttlwyk5IM6vQ3qqzMujnLFno3x+kHUgbe9o1ts6X9CYWoZ0ddsZrMXkrNNdgj8X1hl+GVyeaHU8s9iHiiijEMYoxigMp0oXMDShZ4iBMGIntIgxnYBcscQlJJZYE6Z5frJPVVPiO/pKZrtpwvr1g9+rfU5mZqPJRjxXyyWNWew1e5d1wp0jvgzNqKfMx/OXVZfmZWY66rHspwAJjWXTseZPJMopdDaZ0ngniQsrlrSqcI7ZQnsfSc847+28ZfwlTg4zmV7a1ZFpk1VjrluR7taVVq09Ox2i0JSqdcDPecH4R8TtqW1vm5wMLU9R7zvldatNW6giYVlcq5YZtQmprKCMyaeo9OshRpqra+p7SBCK3TvtCM37vOcbSM9gr2sPLY5AAE8f8YcT/APKcS8ikc29A5J9TOq8Y8ePlvaWz7kcxB6Tz7GnUepJ9Zo6KnneynrLdsdi9kKh5sbRKo1e2YtPN8hmRydWc4moZQRk5vbG8PSuq1FcNzp0GYKnUHRupO5hHP8JGO8krtlW8xeBNJ9lqlcJVbKnf0MuIeWYhT8S7b+ss0L10XTVGpfWbGn8inxZx+yGVf0akWftBUqq1VypyJPM1YyUllEOMCMUbMUYFOlCwVKPUfQvv2kMpqEd0j1jLwPUqhPc9hKzvqbmOT2EjUfl9XJkVKKvq/r6zntTq5XP9FiMEiQcs2FGB3McLqbm3HTeJeXb2k8aVzKh7ItyavTErUSW8z/sdpOvWLroXoDg+8amNOoegHeAD7xlOlvYnEJv6wbD4j0AO59IgCAlGWpS5WU52nqXgLi//AJCyamzKaifEp6j+08jtrzVXZGXSmcKT+s2eDcSr8H4gt5bHVpOGTsw7iV9RT8kf2WNPf8b56Z7cURebKj5zC8RX/k21RaVQKWG5z0nIcY8YtVrJ+yFgjDLKTuPaczxbjF1xCpzVGFPPKg/WUatJKT54NCzUxgsrlkeK3iectOkdWpuY+spAHT8zA6WavT1dgWEuBT09vSakYqKwjKssc5ZYFs9FHbeRFM6c9sSyKQ04zvmSICrj6GezwU9BXvnbaE2anq74wd41RilRR2UxJhWZO8ACq+lV1DlPfElUQac+0iQPKX32jU3On5GAEFZqTa6RwZo29wKy+jjqJRZc7r9ZBdVKprXYgy5pNXKmWPR4lDJr5+8UDTqCrTVl7xToo2bllFfAKkdK59swNR9TfPYSR+D6wOctqPWYnkbnuUF0iauPsZ9mz6KSI9uupVPtmPVGVHvGtP8A1x7TMJQyj4j7wVZ2dvKXr3xCVDppEiRtRhQe7HcxAKlQCbtvjoJBjqZnxtkDrLOdpEfLvAAGRqxuT6CSWkXXm6Z6CEADEZ7yVQlKXLACvVporaVUZz6SFWh5S61LKQc7GEtxqOo9YWrurA9AIAVaZZ62luYqDkyx5Q5ex67iAsBqqsT6S+gCuMd4AVKeFXPdT+UKoP0gDsz49ZYoHkgA/wDoxiJM/FI9DiAFa8T4W98GDJ/43/8Aky7VUGi+fSUqYzQYHsMxgHbPksvtBo4Vm2yGGQRCpvT+og6IHkZ/hfA+UAJZKNj3knXlzGO9T5RwcgwAalU8pv8AqesUbp/OKWYaqyC2pi2o/9k=" alt="">
+        <h1 class="mt-3 mb-2">Hi, I'm <span>Inkersal Mahendran</span></h1>
+        <h4>I'm <span>PHP Developer</span></h4>
+        <a href="#" class="flip-icon text-dark"><i class="bi bi-info-circle"></i></a>   
+        
+          <div class="d-flex flex-column flex-md-row align-items-center justify-content-center text-center mt-4 contact-items">
+            <a href="mailto:inkersal501@gmail.com" class="mx-3 text-dark text-roboto text-decoration-none d-flex align-items-center gap-2"><i class="bi bi-envelope-fill"></i> inkersal501@gmail.com</a>  
+            <a href="tel:+916382053500" class="mx-3 mt-2 text-dark text-roboto text-decoration-none d-flex align-items-center gap-2"><i class="bi bi-telephone-fill"></i> +91 638 2053 500</a>  
+          </div>
+          <div class="d-flex gap-3 mt-4 justify-content-center contact-items align-items-center">
+            <a href="#" class="text-decoration-none"><i class="bi bi-linkedin text-dark"></i></a>  
+            <a href="#" class="text-decoration-none"><i class="bi bi-github text-dark"></i></a>
+            <a href="#" class="text-decoration-none"><i class="bi bi-instagram text-dark"></i></a>  
+          </div>
+      
+      </div>        
+    </section>
+
+
+    <section class="about-content mt-5 mb-5 text-left" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="headings">About</h1>
+            <hr> 
+          </div>
+          <div class="col-sm-12 col-lg-6">
+            <p class="text-justify px-4">Hello! My name is Inkersal,
+              and I am a passionate and dedicated PHP Developer with
+              4 years of experience in building dynamic, responsive, and scalable web applications.
+              My journey in the world of web development began out of a fascination
+              with the way technology can solve real-world problems and enhance user experiences.
+            </p>
+            <div class="row px-lg-4 px-sm-2">
+              <div class="col-12 mt-3 mb-5">
+                <div class="row">
+                  <div class="col-5 d-flex flex-column gap-2 text-center border border-3 mx-3 p-2 projects-counter">
+                    <i class="bi bi-cloud-check h1"></i>
+                    <h4>12</h4>
+                    <h4>Projects</h4>
+                  </div>
+                  <div class="col-5 d-flex flex-column gap-2 text-center border border-3 mx-3 p-2 projects-counter">
+                    <i class="bi bi-clouds h1"></i>
+                    <h4>100+</h4>
+                    <h4>Micro Services</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+          <div class="col-sm-12 col-lg-6 px-lg-4 px-sm-2">
+            <div class="mb-4">
+              <h5>PHP</h5>
+              <div class="progress">
+                <div class="progress-bar bg-here-primary" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <h5>HTML</h5>
+              <div class="progress">
+                <div class="progress-bar bg-here-primary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <h5>CSS</h5>
+              <div class="progress">
+                <div class="progress-bar bg-here-primary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <h5>JS</h5>
+              <div class="progress">
+                <div class="progress-bar bg-here-primary" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <h5>MySQL</h5>
+              <div class="progress">
+                <div class="progress-bar bg-here-primary" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>      
+    </section>
+    <section class="experience-content mt-5 mb-5" id=""> 
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="headings">Experience</h1>
+            <hr> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-content mt-5 mb-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="headings">Contact</h1>
+            <hr> 
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="contact-details p-2">              
+              <a href="http://www.google.com/search?q=Inkersal's Home" target="_blank" class="h6 text-decoration-none"><i class="bi bi-geo-alt h4 mx-2"></i> Salem,Tamilnadu</a>
+              <p class="text-secondary px-4 mx-4">India 636303.</p>
+            </div>
+            <div class="contact-details p-2">              
+               <a href="mailto:inkersal501@gmail.com" class="h6 text-decoration-none"><i class="bi bi-envelope h4 mx-2"></i> inkersal501@gmail.com</a>
+               <p class="text-secondary px-4 mx-4">Mon - Fri 9AM - 6PM</p>
+            </div>
+            <div class="contact-details p-2">              
+              <a href="tel:+916382053500" class="h6 text-decoration-none"><i class="bi bi-telephone h4 mx-2"></i> +91 638 2053 500</a>
+              <p class="text-secondary px-4 mx-4">Send your query at anytime.</p>
+            </div>            
+          </div>
+          <div class="col-12 col-md-8">
+            <form action="" method="post">
+              <div class="row p-4">
+                <div class="col-12 col-md-6">
+                  <div class="form-group mt-3 mb-3">
+                    <input type="text" class="form-control bg-here-secondary text-dark p-3" name="name" id="name" placeholder="Your Name">
+                  </div>                                    
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group mt-3 mb-3">
+                    <input type="email" class="form-control bg-here-secondary text-dark p-3" name="email" id="email" placeholder="Your Email Address">
+                  </div>
+                </div>
+                <div class="col-12 mt-3 text-center">
+                  <div class="form-group mb-3">
+                    <textarea class="form-control bg-here-secondary text-dark p-3" name="message" id="message" placeholder="Your Message"></textarea>
+                  </div> 
+                  <button type="submit" name="something" class="mt-3 mb-3 btn btn-light btn-lg">Submit</button>
+                </div>
+               </div>
+            </form>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <footer class="py-4 px-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 d-flex align-items-center"> 
+            <span class="mb-3 mb-md-0 text-dark">&copy; 2024 All rights reserved.</span>
+            <ul class="list-unstyled d-flex px-4 m-0">
+              <li class="ms-3"><a class="text-dark" href="#"> <i class="bi bi-linkedin"></i></a></li>
+              <!-- <li class="ms-3"><a class="text-white" href="#"> <i class="bi bi-instagram"></i></a></li> -->
+              <li class="ms-3"><a class="text-dark" href="#"> <i class="bi bi-github"></i></a></li>
+            </ul>
+          </div> 
+        </div>
+      </div>
+            
+    </footer>
+    <a href="#" class="back-to-top border border-2 btn btn-outline-dark"><i class="bi bi-chevron-double-up h4"></i></a></a>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>    <script>
+      let navbar=document.querySelector(".navbar");
+      let totop=document.querySelector(".back-to-top");
+      totop.style.display="none";
+      document.addEventListener("scroll",()=>{
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+            navbar.classList.add("shadow");
+            totop.style.display="block";
+          }           
+          else {
+            navbar.classList.remove("shadow");   
+            totop.style.display="none";
+          }
+                  
+      });
+      document.addEventListener("click",()=>{
+          let elem=document.querySelector(".navbar-toggler").getAttribute('aria-expanded');          
+          if(elem){
+            navbar.classList.add("shadow-lg");
+          }else 
+            navbar.classList.remove("shadow-lg");    
+      });
+     
+      totop.addEventListener("click",()=>{
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      });
+       
+
+    </script>
+  </body>
+</html>
